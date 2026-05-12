@@ -17,12 +17,12 @@ export default function App() {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length);
     }, 5000); // Change image every 5 seconds
 
-    return () => clearInterval(interval);
+    return () => clearInterval(interval);``
   }, []);
 
   const handleDownload = () => {
     // Replace this URL with your actual APK file path
-    const apkUrl = '/path-to-your-app.apk';
+    const apkUrl = "/prototype/PotholeDetector.apk";
     const link = document.createElement('a');
     link.href = apkUrl;
     link.download = 'PotholeDetector.apk';
