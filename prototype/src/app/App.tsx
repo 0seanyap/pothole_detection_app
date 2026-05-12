@@ -22,7 +22,7 @@ export default function App() {
 
   const handleDownload = () => {
     // Replace this URL with your actual APK file path
-    const apkUrl = "/prototype/PotholeDetector.apk";
+    const apkUrl = "/PotholeDetector.apk";
     const link = document.createElement('a');
     link.href = apkUrl;
     link.download = 'PotholeDetector.apk';
